@@ -4,3 +4,5 @@
 #include <iomanip> // подключаем библиотеку, для функции setprecision
 
 using namespace std;
+
+double final_result(); // функция отвечает за результат
