@@ -4,3 +4,14 @@
 #include <iomanip> // подключаем библиотеку, для функции setprecision
 
 using namespace std;
+
+double example(); // функция выражения
+
+double mult_div(); // функция отвечает за умножение, деление
+
+double degree(); // функция отвечает за степень
+
+double factor(); // функция отвечает за скобки  
+
+double final_result(); // функция отвечает за результат
+
