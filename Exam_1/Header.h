@@ -4,3 +4,5 @@
 #include <iomanip> // подключаем библиотеку, для функции setprecision
 
 using namespace std;
+
+double mult_div(); // функция отвечает за умножение, деление
