@@ -6,3 +6,6 @@
 using namespace std;
 
 double example(); // функция выражения
+
+double mult_div(); // функция отвечает за умножение, деление
+
