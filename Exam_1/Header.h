@@ -4,3 +4,5 @@
 #include <iomanip> // подключаем библиотеку, для функции setprecision
 
 using namespace std;
+
+double degree(); // функция отвечает за степень
