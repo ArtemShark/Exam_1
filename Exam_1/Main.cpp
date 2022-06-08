@@ -137,7 +137,6 @@ double final_result() // функция отвечает за результат
 {
     double result = 0.0;
     char character; // символ
-    double number = 10.0;
     int temp = 1;
 
     character = cin.get(); // заставляет систему ожидать ввода пользователем любого символа, который она считывает
@@ -179,7 +178,7 @@ int main() {
 
     number = example();
 
-    cout << setprecision(12) << "Calculation result: " << number << endl;
-    // setprecision - указывает сколько знаков после запетой, мы хотим видеть.
+    cout << "Calculation result: " << number << endl;
+    
 	return 0;
 }
