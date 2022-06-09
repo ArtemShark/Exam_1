@@ -1,6 +1,6 @@
 #include "Header.h"
 
-double example() // функция выражения
+double add_sub() // функция выражения
 {
     double result;
     char expression; // выражение
@@ -114,7 +114,7 @@ double factor()  // функция отвечает за скобки
 
     if (factor == '(')
     {
-        result = example();
+        result = add_sub();
         factor = cin.get();  // заставляет систему ожидать ввода пользователем любого символа, который она считывает
 
         if (factor != ')')
@@ -176,7 +176,7 @@ int main() {
 
     cout << "Enter an expression: "; // Введите выражение 
 
-    number = example();
+    number = add_sub();
 
     cout << "Calculation result: " << number << endl;
     
